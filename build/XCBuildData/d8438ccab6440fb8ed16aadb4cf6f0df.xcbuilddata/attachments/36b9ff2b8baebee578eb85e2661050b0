@@ -1,0 +1,158 @@
+{
+  "" : {
+    "diagnostics" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/NetSken-master.dia",
+    "emit-module-dependencies" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/NetSken-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/NetSken-master-emit-module.dia",
+    "swift-dependencies" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/NetSken-master.swiftdeps"
+  },
+  "/Users/samuel/Documents/Projects/NetSken/NetSken/NetSken/AppDelegate.swift" : {
+    "const-values" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/AppDelegate.swiftconstvalues",
+    "dependencies" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/AppDelegate.d",
+    "diagnostics" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/AppDelegate.dia",
+    "index-unit-output-path" : "/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/AppDelegate.o",
+    "llvm-bc" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/AppDelegate.bc",
+    "object" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/AppDelegate.o",
+    "swift-dependencies" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/AppDelegate.swiftdeps",
+    "swiftmodule" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/AppDelegate~partial.swiftmodule"
+  },
+  "/Users/samuel/Documents/Projects/NetSken/NetSken/NetSken/Controllers/AdvancedScansViewController.swift" : {
+    "const-values" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/AdvancedScansViewController.swiftconstvalues",
+    "dependencies" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/AdvancedScansViewController.d",
+    "diagnostics" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/AdvancedScansViewController.dia",
+    "index-unit-output-path" : "/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/AdvancedScansViewController.o",
+    "llvm-bc" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/AdvancedScansViewController.bc",
+    "object" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/AdvancedScansViewController.o",
+    "swift-dependencies" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/AdvancedScansViewController.swiftdeps",
+    "swiftmodule" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/AdvancedScansViewController~partial.swiftmodule"
+  },
+  "/Users/samuel/Documents/Projects/NetSken/NetSken/NetSken/Controllers/MainTabViewController.swift" : {
+    "const-values" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/MainTabViewController.swiftconstvalues",
+    "dependencies" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/MainTabViewController.d",
+    "diagnostics" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/MainTabViewController.dia",
+    "index-unit-output-path" : "/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/MainTabViewController.o",
+    "llvm-bc" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/MainTabViewController.bc",
+    "object" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/MainTabViewController.o",
+    "swift-dependencies" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/MainTabViewController.swiftdeps",
+    "swiftmodule" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/MainTabViewController~partial.swiftmodule"
+  },
+  "/Users/samuel/Documents/Projects/NetSken/NetSken/NetSken/Controllers/MainWindowController.swift" : {
+    "const-values" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/MainWindowController.swiftconstvalues",
+    "dependencies" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/MainWindowController.d",
+    "diagnostics" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/MainWindowController.dia",
+    "index-unit-output-path" : "/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/MainWindowController.o",
+    "llvm-bc" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/MainWindowController.bc",
+    "object" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/MainWindowController.o",
+    "swift-dependencies" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/MainWindowController.swiftdeps",
+    "swiftmodule" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/MainWindowController~partial.swiftmodule"
+  },
+  "/Users/samuel/Documents/Projects/NetSken/NetSken/NetSken/Controllers/OptionsViewController.swift" : {
+    "const-values" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/OptionsViewController.swiftconstvalues",
+    "dependencies" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/OptionsViewController.d",
+    "diagnostics" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/OptionsViewController.dia",
+    "index-unit-output-path" : "/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/OptionsViewController.o",
+    "llvm-bc" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/OptionsViewController.bc",
+    "object" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/OptionsViewController.o",
+    "swift-dependencies" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/OptionsViewController.swiftdeps",
+    "swiftmodule" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/OptionsViewController~partial.swiftmodule"
+  },
+  "/Users/samuel/Documents/Projects/NetSken/NetSken/NetSken/Controllers/ScanNetworkViewController.swift" : {
+    "const-values" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/ScanNetworkViewController.swiftconstvalues",
+    "dependencies" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/ScanNetworkViewController.d",
+    "diagnostics" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/ScanNetworkViewController.dia",
+    "index-unit-output-path" : "/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/ScanNetworkViewController.o",
+    "llvm-bc" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/ScanNetworkViewController.bc",
+    "object" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/ScanNetworkViewController.o",
+    "swift-dependencies" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/ScanNetworkViewController.swiftdeps",
+    "swiftmodule" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/ScanNetworkViewController~partial.swiftmodule"
+  },
+  "/Users/samuel/Documents/Projects/NetSken/NetSken/NetSken/Models/DeviceModel.swift" : {
+    "const-values" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/DeviceModel.swiftconstvalues",
+    "dependencies" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/DeviceModel.d",
+    "diagnostics" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/DeviceModel.dia",
+    "index-unit-output-path" : "/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/DeviceModel.o",
+    "llvm-bc" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/DeviceModel.bc",
+    "object" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/DeviceModel.o",
+    "swift-dependencies" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/DeviceModel.swiftdeps",
+    "swiftmodule" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/DeviceModel~partial.swiftmodule"
+  },
+  "/Users/samuel/Documents/Projects/NetSken/NetSken/NetSken/Models/VulnerabilityModel.swift" : {
+    "const-values" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/VulnerabilityModel.swiftconstvalues",
+    "dependencies" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/VulnerabilityModel.d",
+    "diagnostics" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/VulnerabilityModel.dia",
+    "index-unit-output-path" : "/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/VulnerabilityModel.o",
+    "llvm-bc" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/VulnerabilityModel.bc",
+    "object" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/VulnerabilityModel.o",
+    "swift-dependencies" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/VulnerabilityModel.swiftdeps",
+    "swiftmodule" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/VulnerabilityModel~partial.swiftmodule"
+  },
+  "/Users/samuel/Documents/Projects/NetSken/NetSken/NetSken/Network/NetworkManager.swift" : {
+    "const-values" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/NetworkManager.swiftconstvalues",
+    "dependencies" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/NetworkManager.d",
+    "diagnostics" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/NetworkManager.dia",
+    "index-unit-output-path" : "/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/NetworkManager.o",
+    "llvm-bc" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/NetworkManager.bc",
+    "object" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/NetworkManager.o",
+    "swift-dependencies" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/NetworkManager.swiftdeps",
+    "swiftmodule" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/NetworkManager~partial.swiftmodule"
+  },
+  "/Users/samuel/Documents/Projects/NetSken/NetSken/NetSken/Utils/ErrorHandler.swift" : {
+    "const-values" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/ErrorHandler.swiftconstvalues",
+    "dependencies" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/ErrorHandler.d",
+    "diagnostics" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/ErrorHandler.dia",
+    "index-unit-output-path" : "/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/ErrorHandler.o",
+    "llvm-bc" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/ErrorHandler.bc",
+    "object" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/ErrorHandler.o",
+    "swift-dependencies" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/ErrorHandler.swiftdeps",
+    "swiftmodule" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/ErrorHandler~partial.swiftmodule"
+  },
+  "/Users/samuel/Documents/Projects/NetSken/NetSken/NetSken/Views/DeviceIconView.swift" : {
+    "const-values" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/DeviceIconView.swiftconstvalues",
+    "dependencies" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/DeviceIconView.d",
+    "diagnostics" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/DeviceIconView.dia",
+    "index-unit-output-path" : "/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/DeviceIconView.o",
+    "llvm-bc" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/DeviceIconView.bc",
+    "object" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/DeviceIconView.o",
+    "swift-dependencies" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/DeviceIconView.swiftdeps",
+    "swiftmodule" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/DeviceIconView~partial.swiftmodule"
+  },
+  "/Users/samuel/Documents/Projects/NetSken/NetSken/NetSken/Views/NetworkDiagramView.swift" : {
+    "const-values" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/NetworkDiagramView.swiftconstvalues",
+    "dependencies" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/NetworkDiagramView.d",
+    "diagnostics" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/NetworkDiagramView.dia",
+    "index-unit-output-path" : "/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/NetworkDiagramView.o",
+    "llvm-bc" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/NetworkDiagramView.bc",
+    "object" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/NetworkDiagramView.o",
+    "swift-dependencies" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/NetworkDiagramView.swiftdeps",
+    "swiftmodule" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/NetworkDiagramView~partial.swiftmodule"
+  },
+  "/Users/samuel/Documents/Projects/NetSken/NetSken/NetSken/Views/ScanOptionsView.swift" : {
+    "const-values" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/ScanOptionsView.swiftconstvalues",
+    "dependencies" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/ScanOptionsView.d",
+    "diagnostics" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/ScanOptionsView.dia",
+    "index-unit-output-path" : "/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/ScanOptionsView.o",
+    "llvm-bc" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/ScanOptionsView.bc",
+    "object" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/ScanOptionsView.o",
+    "swift-dependencies" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/ScanOptionsView.swiftdeps",
+    "swiftmodule" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/ScanOptionsView~partial.swiftmodule"
+  },
+  "/Users/samuel/Documents/Projects/NetSken/NetSken/NetSken/main.swift" : {
+    "const-values" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/main.swiftconstvalues",
+    "dependencies" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/main.d",
+    "diagnostics" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/main.dia",
+    "index-unit-output-path" : "/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/main.o",
+    "llvm-bc" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/main.bc",
+    "object" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/main.o",
+    "swift-dependencies" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/main.swiftdeps",
+    "swiftmodule" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/main~partial.swiftmodule"
+  },
+  "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/samuel/Documents/Projects/NetSken/NetSken/build/NetSken.build/Debug/NetSken.build/Objects-normal/x86_64/GeneratedAssetSymbols~partial.swiftmodule"
+  }
+}

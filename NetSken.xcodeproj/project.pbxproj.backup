@@ -27,20 +27,6 @@
 		7E1DA41A2E31E12D00707CE7 /* NetSken.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetSken.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E1DA42E2E31E12F00707CE7 /* NetSkenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetSkenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E1DA4382E31E12F00707CE7 /* NetSkenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetSkenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B66ACCE167C24923A9D9AB85 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "main.swift"; sourceTree = "<group>"; };
-		71BE223D2B0E4E5BB6B75892 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate.swift"; sourceTree = "<group>"; };
-		05DC77DBB7FC4F3695D98A98 /* MainWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainWindowController.swift"; sourceTree = "<group>"; };
-		AA06BD99E0464F2B9FEFC2F6 /* MainTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainTabViewController.swift"; sourceTree = "<group>"; };
-		E436A0BBCACF45A29DF865D1 /* ScanNetworkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ScanNetworkViewController.swift"; sourceTree = "<group>"; };
-		57459D6BDD254A6B874C60BB /* AdvancedScansViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AdvancedScansViewController.swift"; sourceTree = "<group>"; };
-		46C95545984D403EA423077E /* OptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OptionsViewController.swift"; sourceTree = "<group>"; };
-		05D7E206277D46769354C875 /* DeviceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DeviceModel.swift"; sourceTree = "<group>"; };
-		8C92705D4C2B45C99A120DD2 /* VulnerabilityModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VulnerabilityModel.swift"; sourceTree = "<group>"; };
-		C6E3EDE488574903AF41A0C0 /* NetworkDiagramView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NetworkDiagramView.swift"; sourceTree = "<group>"; };
-		828F59600050475E92158DD4 /* DeviceIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DeviceIconView.swift"; sourceTree = "<group>"; };
-		69F3FEB51253496F95791ACB /* ScanOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ScanOptionsView.swift"; sourceTree = "<group>"; };
-		A43154FCAE864E4F93A37AF1 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NetworkManager.swift"; sourceTree = "<group>"; };
-		97259A5A1FAE456CAF968E22 /* ErrorHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ErrorHandler.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -48,22 +34,6 @@
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
-			);
-			target = 7E1DA4192E31E12D00707CE7 /* NetSken */;
-		};
-		7E47CEA42E32EE3100FBC417 /* Exceptions for "NetSkenTests" folder in "NetSken" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				NetSkenTests.swift,
-				NetworkManagerTests.swift,
-			);
-			target = 7E1DA4192E31E12D00707CE7 /* NetSken */;
-		};
-		7E47CEA52E32EE3100FBC417 /* Exceptions for "NetSkenUITests" folder in "NetSken" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				NetSkenUITests.swift,
-				NetSkenUITestsLaunchTests.swift,
 			);
 			target = 7E1DA4192E31E12D00707CE7 /* NetSken */;
 		};
@@ -80,18 +50,17 @@
 		};
 		7E1DA4312E31E12F00707CE7 /* NetSkenTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				7E47CEA42E32EE3100FBC417 /* Exceptions for "NetSkenTests" folder in "NetSken" target */,
-			);
 			path = NetSkenTests;
 			sourceTree = "<group>";
 		};
 		7E1DA43B2E31E12F00707CE7 /* NetSkenUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				7E47CEA52E32EE3100FBC417 /* Exceptions for "NetSkenUITests" folder in "NetSken" target */,
-			);
 			path = NetSkenUITests;
+			sourceTree = "<group>";
+		};
+		7E1DA44D2E31E13700707CE7 /* Preview Content */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -124,6 +93,7 @@
 		7E1DA4112E31E12D00707CE7 = {
 			isa = PBXGroup;
 			children = (
+				7E1DA44D2E31E13700707CE7 /* Preview Content */,
 				7E1DA41C2E31E12D00707CE7 /* NetSken */,
 				7E1DA4312E31E12F00707CE7 /* NetSkenTests */,
 				7E1DA43B2E31E12F00707CE7 /* NetSkenUITests */,
@@ -158,6 +128,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				7E1DA41C2E31E12D00707CE7 /* NetSken */,
+				7E1DA44D2E31E13700707CE7 /* Preview Content */,
 			);
 			name = NetSken;
 			packageProductDependencies = (
@@ -285,21 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-							206D172BCCFA46ABA69B40D0 /* main.swift in Sources */,
-				66F3F460AAE0494B90EBBA71 /* AppDelegate.swift in Sources */,
-				F639AB9A060745D7ADB7BE05 /* MainWindowController.swift in Sources */,
-				5209A11011F848A58A0824DF /* MainTabViewController.swift in Sources */,
-				19C17B2A379B446FA62303A5 /* ScanNetworkViewController.swift in Sources */,
-				90341F7CF8A546028A2B5C38 /* AdvancedScansViewController.swift in Sources */,
-				4E1DAB328E1E42398C2199C9 /* OptionsViewController.swift in Sources */,
-				8F87C8872B214CBCB7A2F807 /* DeviceModel.swift in Sources */,
-				C7E099EB68C143B482529443 /* VulnerabilityModel.swift in Sources */,
-				197FBD46AAE7446681930F9A /* NetworkDiagramView.swift in Sources */,
-				ED63C37555B2466AA95B81E4 /* DeviceIconView.swift in Sources */,
-				E814B69F4909410996437288 /* ScanOptionsView.swift in Sources */,
-				E60EE2C161AF4A539D7EE282 /* NetworkManager.swift in Sources */,
-				B02123858EAC4D62BD480B72 /* ErrorHandler.swift in Sources */,
-);
+			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		7E1DA42A2E31E12F00707CE7 /* Sources */ = {
@@ -338,23 +295,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = NetSken/NetSken.entitlements;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
-				"DEVELOPMENT_TEAM[sdk=macosx*]" = BDV3YV22R3;
-				ENABLE_HARDENED_RUNTIME = NO;
+				DEVELOPMENT_ASSET_PATHS = "\"NetSken/Preview Content\"";
+				DEVELOPMENT_TEAM = BDV3YV22R3;
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NetSken/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = NetSken;
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
-				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2025 Samuel Paluba. All rights reserved.";
-				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "NetSken scans your local network to discover devices and assess security vulnerabilities.";
-				INFOPLIST_KEY_NSMainNibFile = MainMenu;
-				INFOPLIST_KEY_NSNetworkVolumesUsageDescription = "NetSken needs network access to discover and scan network devices.";
-				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -370,10 +318,8 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.netsken.app;
+				PRODUCT_BUNDLE_IDENTIFIER = me.paluba.NetSken;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -389,23 +335,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = NetSken/NetSken.entitlements;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
-				"DEVELOPMENT_TEAM[sdk=macosx*]" = BDV3YV22R3;
-				ENABLE_HARDENED_RUNTIME = NO;
+				DEVELOPMENT_ASSET_PATHS = "\"NetSken/Preview Content\"";
+				DEVELOPMENT_TEAM = BDV3YV22R3;
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NetSken/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = NetSken;
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
-				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2025 Samuel Paluba. All rights reserved.";
-				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "NetSken scans your local network to discover devices and assess security vulnerabilities.";
-				INFOPLIST_KEY_NSMainNibFile = MainMenu;
-				INFOPLIST_KEY_NSNetworkVolumesUsageDescription = "NetSken needs network access to discover and scan network devices.";
-				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -421,10 +358,8 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.netsken.app;
+				PRODUCT_BUNDLE_IDENTIFIER = me.paluba.NetSken;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -552,10 +487,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development";
-				"CODE_SIGN_IDENTITY[sdk=xros*]" = "Apple Development";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BDV3YV22R3;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				MACOSX_DEPLOYMENT_TARGET = 15.2;
@@ -576,10 +510,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development";
-				"CODE_SIGN_IDENTITY[sdk=xros*]" = "Apple Development";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BDV3YV22R3;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				MACOSX_DEPLOYMENT_TARGET = 15.2;
@@ -599,8 +532,9 @@
 		7E1DA44A2E31E12F00707CE7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BDV3YV22R3;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				MACOSX_DEPLOYMENT_TARGET = 15.2;
@@ -620,8 +554,9 @@
 		7E1DA44B2E31E12F00707CE7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BDV3YV22R3;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				MACOSX_DEPLOYMENT_TARGET = 15.2;

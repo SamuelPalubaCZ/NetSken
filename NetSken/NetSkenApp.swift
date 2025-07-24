@@ -4,29 +4,11 @@
 //
 //  Created by Samuel Paluba on 24.07.2025.
 //
+//  Note: This file is intentionally minimal as the app uses AppKit with AppDelegate.swift
+//  instead of SwiftUI App structure.
+//
 
-import SwiftUI
-import SwiftData
+import Foundation
 
-@main
-struct NetSkenApp: App {
-    var sharedModelContainer: ModelContainer = {
-        let schema = Schema([
-            Item.self,
-        ])
-        let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
-
-        do {
-            return try ModelContainer(for: schema, configurations: [modelConfiguration])
-        } catch {
-            fatalError("Could not create ModelContainer: \(error)")
-        }
-    }()
-
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
-        .modelContainer(sharedModelContainer)
-    }
-}
+// This file exists to maintain Xcode project structure
+// The actual app entry point is in AppDelegate.swift

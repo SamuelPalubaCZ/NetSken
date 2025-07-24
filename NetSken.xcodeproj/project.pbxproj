@@ -58,6 +58,11 @@
 			path = NetSkenUITests;
 			sourceTree = "<group>";
 		};
+		7E1DA44D2E31E13700707CE7 /* Preview Content */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +93,7 @@
 		7E1DA4112E31E12D00707CE7 = {
 			isa = PBXGroup;
 			children = (
+				7E1DA44D2E31E13700707CE7 /* Preview Content */,
 				7E1DA41C2E31E12D00707CE7 /* NetSken */,
 				7E1DA4312E31E12F00707CE7 /* NetSkenTests */,
 				7E1DA43B2E31E12F00707CE7 /* NetSkenUITests */,
@@ -122,6 +128,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				7E1DA41C2E31E12D00707CE7 /* NetSken */,
+				7E1DA44D2E31E13700707CE7 /* Preview Content */,
 			);
 			name = NetSken;
 			packageProductDependencies = (

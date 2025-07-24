@@ -9,7 +9,7 @@
       "guid" : "b8d245dcaa573dba7832cb7b0f2b4aee8561f78367ddcab55e94469ab6c4bb9b"
     }
   ],
-  "containerPath" : "/Users/samuel/Documents/Projects/NetSken/NetSken/NetSken.xcodeproj",
+  "containerPath" : "/Users/samuel/Documents/Projects/NetSken/NetSken.xcodeproj",
   "continueBuildingAfterErrors" : false,
   "dependencyScope" : "workspace",
   "enableIndexBuildArena" : false,
@@ -20,13 +20,14 @@
     "overrides" : {
       "commandLine" : {
         "table" : {
-          "CODE_SIGN_IDENTITY" : "",
-          "CODE_SIGNING_REQUIRED" : "NO"
+          "ONLY_ACTIVE_ARCH" : "YES"
         }
       },
       "synthesized" : {
         "table" : {
           "ACTION" : "build",
+          "COLOR_DIAGNOSTICS" : "YES",
+          "diagnostic_message_length" : "71",
           "ENABLE_PREVIEWS" : "NO",
           "ENABLE_XOJIT_PREVIEWS" : "NO"
         }

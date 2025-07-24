@@ -7,6 +7,8 @@
 
 import Foundation
 import OSLog
+import Cocoa
+import Combine
 
 // MARK: - NetSken Error Types
 

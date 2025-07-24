@@ -6,9 +6,10 @@
 //
 
 import Foundation
+import Cocoa
 
 // MARK: - Device Types
-enum DeviceType: String, CaseIterable {
+enum DeviceType: String, CaseIterable, Codable {
     case router = "router"
     case computer = "computer"
     case mobile = "mobile"
@@ -31,7 +32,7 @@ enum DeviceType: String, CaseIterable {
 }
 
 // MARK: - Device Status
-enum DeviceStatus: String, CaseIterable {
+enum DeviceStatus: String, CaseIterable, Codable {
     case online = "online"
     case offline = "offline"
     case warning = "warning"

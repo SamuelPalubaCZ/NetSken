@@ -16,16 +16,16 @@ class ScanOptionsView: NSView {
     weak var delegate: ScanOptionsViewDelegate?
     
     private let title: String
-    private let description: String
+    private let details: String
     private let options: [ScanOption]
     private var optionControls: [String: NSControl] = [:]
     
     private var containerView: NSStackView!
     private var startButton: NSButton!
     
-    init(title: String, description: String, options: [ScanOption]) {
+    init(title: String, description details: String, options: [ScanOption]) {
         self.title = title
-        self.description = description
+        self.details = details
         self.options = options
         
         super.init(frame: .zero)
@@ -75,7 +75,7 @@ class ScanOptionsView: NSView {
         containerView.addArrangedSubview(titleLabel)
         
         // Description
-        let descriptionLabel = NSTextField(wrappingLabelWithString: description)
+        let descriptionLabel = NSTextField(wrappingLabelWithString: details)
         descriptionLabel.font = NSFont.systemFont(ofSize: 12)
         descriptionLabel.textColor = NSColor.secondaryLabelColor
         containerView.addArrangedSubview(descriptionLabel)
@@ -221,7 +221,7 @@ struct ScanOption {
     }
 }
 
-enum OptionType {
+enum OptionType: String, Codable, Equatable, Hashable {
     case textField
     case dropdown
     case checkbox

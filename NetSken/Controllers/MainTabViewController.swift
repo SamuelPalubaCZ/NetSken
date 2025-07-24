@@ -56,16 +56,12 @@ class MainTabViewController: NSTabViewController {
         // Select first tab (Scan Network) by default
         tabView.selectTabViewItem(scanNetworkTab)
     }
-}
-
-// MARK: - NSTabViewDelegate
-extension MainTabViewController: NSTabViewDelegate {
     
-    func tabView(_ tabView: NSTabView, shouldSelect tabViewItem: NSTabViewItem?) -> Bool {
+    override func tabView(_ tabView: NSTabView, shouldSelect tabViewItem: NSTabViewItem?) -> Bool {
         return true
     }
     
-    func tabView(_ tabView: NSTabView, didSelect tabViewItem: NSTabViewItem?) {
+    override func tabView(_ tabView: NSTabView, didSelect tabViewItem: NSTabViewItem?) {
         // Handle tab selection changes if needed
         guard let item = tabViewItem else { return }
         

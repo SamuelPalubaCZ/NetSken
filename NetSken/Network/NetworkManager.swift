@@ -39,11 +39,128 @@ class NetworkManager: NSObject {
     private func startBackendProcess() {
         guard !isBackendRunning else { return }
         
-        // TODO: Start embedded Python backend process
-        // For now, assume backend is running externally
-        isBackendRunning = true
+        DispatchQueue.global(qos: .background).async {
+            self.manageBackendProcess()
+        }
+    }
+
+    private func manageBackendProcess() {
+        guard let resourcePath = Bundle.main.resourcePath else {
+            ErrorHandler.shared.handleError(
+                message: "Could not find app's resource path. The backend server cannot be started.",
+                isFatal: true
+            )
+            return
+        }
+
+        let backendPath = "\(resourcePath)/backend"
+        let venvPath = "\(backendPath)/venv"
+        let pythonPath = "\(venvPath)/bin/python"
+        let appPath = "\(backendPath)/app.py"
+
+        // Check for backend files
+        let fileManager = FileManager.default
+        if !fileManager.fileExists(atPath: backendPath) {
+            ErrorHandler.shared.handleError(
+                message: "Backend files are missing. Please reinstall the application.",
+                isFatal: true
+            )
+            return
+        }
+
+        // Ensure backend is executable
+        self.makeScriptsExecutable(at: backendPath)
+
+        // Set up virtual environment if it doesn't exist
+        if !fileManager.fileExists(atPath: venvPath) {
+            let setupResult = self.executeCommand(
+                command: "/usr/bin/python3",
+                args: ["-m", "venv", venvPath],
+                currentDirectory: backendPath
+            )
+            if !setupResult {
+                ErrorHandler.shared.handleError(
+                    message: "Failed to create Python virtual environment. The backend server cannot be started.",
+                    isFatal: true
+                )
+                return
+            }
+        }
+
+        // Install dependencies
+        let requirementsPath = "\(backendPath)/requirements.txt"
+        let installResult = self.executeCommand(
+            command: pythonPath,
+            args: ["-m", "pip", "install", "-r", requirementsPath],
+            currentDirectory: backendPath
+        )
+        if !installResult {
+            ErrorHandler.shared.handleError(
+                message: "Failed to install backend dependencies. The backend server cannot be started.",
+                isFatal: true
+            )
+            return
+        }
+
+        // Start Flask backend
+        self.backendProcess = Process()
+        self.backendProcess?.executableURL = URL(fileURLWithPath: pythonPath)
+        self.backendProcess?.arguments = [appPath]
+        self.backendProcess?.currentDirectoryPath = backendPath
+
+        do {
+            try self.backendProcess?.run()
+            self.isBackendRunning = true
+            print("NetworkManager: Backend process started successfully")
+        } catch {
+            ErrorHandler.shared.handleError(
+                message: "Failed to start the backend server: \(error.localizedDescription)",
+                isFatal: true
+            )
+        }
+    }
+
+    private func makeScriptsExecutable(at path: String) {
+        let fileManager = FileManager.default
+        let enumerator = fileManager.enumerator(atPath: path)
+        while let file = enumerator?.nextObject() as? String {
+            if file.hasSuffix(".sh") || file.hasSuffix(".py") {
+                let filePath = "\(path)/\(file)"
+                var attributes = [FileAttributeKey: Any]()
+                attributes[.posixPermissions] = 0o755
+                do {
+                    try fileManager.setAttributes(attributes, ofItemAtPath: filePath)
+                } catch {
+                    print("Could not make \(file) executable: \(error)")
+                }
+            }
+        }
+    }
+
+    private func executeCommand(command: String, args: [String], currentDirectory: String) -> Bool {
+        let process = Process()
+        process.executableURL = URL(fileURLWithPath: command)
+        process.arguments = args
+        process.currentDirectoryPath = currentDirectory
+
+        let pipe = Pipe()
+        process.standardOutput = pipe
+        process.standardError = pipe
         
-        print("NetworkManager: Backend process started")
+        do {
+            try process.run()
+            process.waitUntilExit()
+
+            let data = pipe.fileHandleForReading.readDataToEndOfFile()
+            if let output = String(data: data, encoding: .utf8) {
+                print(output)
+            }
+
+            return process.terminationStatus == 0
+        } catch {
+            print("Failed to execute command: \(command) \(args.joined(separator: " ")), error: \(error)")
+            return false
+        }
     }
     
     private func stopBackendProcess() {

@@ -14,5 +14,8 @@ let app = NSApplication.shared
 let delegate = AppDelegate()
 app.delegate = delegate
 
-// Run the application
-_ = NSApplicationMain(CommandLine.argc, CommandLine.unsafeArgv)
+// Set up application properties
+app.setActivationPolicy(.regular)
+
+// Run the application manually without NSApplicationMain to avoid MainMenu.nib loading
+app.run()

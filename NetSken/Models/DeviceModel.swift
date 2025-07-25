@@ -182,3 +182,4 @@ enum RiskLevel: String, CaseIterable {
         }
     }
 }
+

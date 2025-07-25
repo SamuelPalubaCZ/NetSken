@@ -337,12 +337,35 @@ struct AnyCodable: Codable {
     }
     
     func encode(to encoder: Encoder) throws {
-        // Implementation for encoding any value
+        var container = encoder.singleValueContainer()
+        
+        if let intValue = value as? Int {
+            try container.encode(intValue)
+        } else if let doubleValue = value as? Double {
+            try container.encode(doubleValue)
+        } else if let stringValue = value as? String {
+            try container.encode(stringValue)
+        } else if let boolValue = value as? Bool {
+            try container.encode(boolValue)
+        } else {
+            try container.encode(String(describing: value))
+        }
     }
     
     init(from decoder: Decoder) throws {
-        // Implementation for decoding any value
-        self.value = ""
+        let container = try decoder.singleValueContainer()
+        
+        if let intValue = try? container.decode(Int.self) {
+            self.value = intValue
+        } else if let doubleValue = try? container.decode(Double.self) {
+            self.value = doubleValue
+        } else if let stringValue = try? container.decode(String.self) {
+            self.value = stringValue
+        } else if let boolValue = try? container.decode(Bool.self) {
+            self.value = boolValue
+        } else {
+            self.value = ""
+        }
     }
 }
 

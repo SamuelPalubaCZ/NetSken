@@ -48,6 +48,9 @@ class MainWindowController: NSWindowController {
         
         // Enable full size content view
         window.titlebarAppearsTransparent = false
+        
+        // Set window delegate
+        window.delegate = self
     }
     
     private func setupTabViewController() {

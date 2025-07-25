@@ -18,9 +18,15 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         
         // Make window key and front
         mainWindowController?.window?.makeKeyAndOrderFront(nil)
+    }
+    
+    override init() {
+        super.init()
         
-        // Terminate app when all windows are closed
-        NSApp.setActivationPolicy(.regular)
+        // Initialize immediately since we're not using NSApplicationMain
+        DispatchQueue.main.async {
+            self.applicationDidFinishLaunching(Notification(name: NSApplication.didFinishLaunchingNotification))
+        }
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {

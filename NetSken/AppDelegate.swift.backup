@@ -10,7 +10,7 @@ import Cocoa
 class AppDelegate: NSObject, NSApplicationDelegate {
     
     var mainWindowController: MainWindowController?
-    
+
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         // Create main window controller
         mainWindowController = MainWindowController()
@@ -20,6 +20,15 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         mainWindowController?.window?.makeKeyAndOrderFront(nil)
     }
     
+    override init() {
+        super.init()
+        
+        // Initialize immediately since we're not using NSApplicationMain
+        DispatchQueue.main.async {
+            self.applicationDidFinishLaunching(Notification(name: NSApplication.didFinishLaunchingNotification))
+        }
+    }
+
     func applicationWillTerminate(_ aNotification: Notification) {
         // Insert code here to tear down your application
     }

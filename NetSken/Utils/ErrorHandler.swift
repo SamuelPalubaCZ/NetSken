@@ -360,6 +360,12 @@ struct ErrorReport {
     let deviceModel: String
 }
 
+extension ErrorReport: CustomStringConvertible {
+    var description: String {
+        return "Error: \(error.description), Context: \(context), Timestamp: \(timestamp), AppVersion: \(appVersion), OSVersion: \(osVersion), DeviceModel: \(deviceModel)"
+    }
+}
+
 enum SecurityEvent: String {
     case unauthorizedAccess = "UNAUTHORIZED_ACCESS"
     case privilegeEscalation = "PRIVILEGE_ESCALATION"
